@@ -1,0 +1,155 @@
+/*====  RESET ============================ */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  width: 100%;
+  padding-top: 10px;
+  ;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 17px;
+}
+
+.user-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: rgba(15, 11, 78, 0.13);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+main .container {
+  width: 95%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.menu > a {
+  text-decoration: none;
+  color: #444444;
+  display: inline-flex;
+  padding: 5px;
+ 
+}
+.menu > a:hover{
+  text-decoration: underline;
+
+}
+
+.logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.search {
+  width: 100%;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.08);
+}
+
+.search .icon {
+  margin: 0 5px;
+}
+
+.search .input-search {
+  display: flex;
+  flex: 1;
+  border: none;
+  height: 30px;
+  padding: 0 10px;
+  outline: none;
+}
+.buttons {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+
+}
+
+.buttons > button {
+  padding: 15px 20px;
+  border: none;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.buttons > button:hover{
+  box-shadow: 1px 2px 2px #d5d7d8;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  background-color: #eaebee;
+  width: 100%;
+  margin: auto;
+  color: #5f6368;
+  
+}
+footer .pais {
+  padding: 0 20px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #5f636833;
+}
+footer .pais > p {
+  width: 100%;
+  height: 50px;
+  padding: 20px 30x;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  
+}
+.link > ul {
+  display: inline;
+
+}
+
+.links > ul > li {
+    padding: 10px;
+   font-size: 13px;
+  display: inline-flex;
+
+  
+  
+}
+.links > ul > li > a{
+  text-decoration: none;
+  color: #5f6368;
+  display: inline-flex;
+  font-size: 16px;
+
+  
+
+
+}
+.links > ul > li > a:hover{
+  text-decoration: underline;
+}
